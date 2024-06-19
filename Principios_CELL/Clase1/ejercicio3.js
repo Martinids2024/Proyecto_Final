@@ -47,10 +47,10 @@
 //   keyPresses.textContent = ` ${Code}`;
 // });
 
-// const mouseCoordinates = document.getElementById("mouse-coordinates");
-// document.addEventListener("mousemove", (event) => {
-//   mouseCoordinates.textContent = `Cordanas: ${event.clientX}, ${event.clientY}`;
-// });
+ const mouseCoordinates = document.getElementById("mouse-coordinates");
+ document.addEventListener("mousemove", (event) => {
+   mouseCoordinates.textContent = `Cordanas: ${event.clientX}, ${event.clientY}`;
+ });
 
 // const teclasPresionadas = document.getElementById("teclas-presionadas");
 
