@@ -81,12 +81,11 @@
 //   document.body.appendChild(table);
 
 //   ////////////////////////////////////////
+function elementoLi(){
 
-// const elemento1 = document.getElementById("C1");
+}
+ const elemento1 = document.querySelectorAll('li');
 
-// elemento1.addEventListener("click", () => {
-//   console.log("Elemento 1 ");
-// });
 
 // const elemento2 = document.getElementById("C2");
 
@@ -98,3 +97,20 @@
 // elemento3.addEventListener("click", () => {
 //   console.log("Elemento 3");
 // });
+
+
+
+//////////////////////////////////////////////////
+
+// function ejercicio2() {
+//     let eje2 = document.querySelectorAll('li');
+//     eje2.forEach((element)=>{
+//         element.addEventListener('click', function(e){
+//             let li = e.target;
+//             alert("Elemento Seleccionado:" \n "ID:" + li.id + " "+ \n "ISO ID:" + li.dataset.id + , \n "Dial Code:", li.dataset.dialCode
+//             );
+//         });
+//     });
+// }
+
+// ejercicio2();
