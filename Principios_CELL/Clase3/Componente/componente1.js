@@ -1,6 +1,6 @@
 
 
-export default class myComponente extends ListElement{
+export default class myComponente extends LitElement{
     static get properties(){
         return {
             title:{type: String},

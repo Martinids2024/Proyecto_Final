@@ -1,0 +1,14 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "clase3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.1.4"
+  }
+}
