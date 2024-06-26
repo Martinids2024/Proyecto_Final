@@ -1,6 +1,6 @@
+import { LitElement, html} from "lit";
 
-
-export default class myComponente extends LitElement{
+export default class MyTemplate extends LitElement{
     static get properties(){
         return {
             title:{type: String},
@@ -26,12 +26,12 @@ export default class myComponente extends LitElement{
         render(){
         return html`
         <h2>${this.title} Nr.${this.counter}!</h2>
-        <button @click=${this.__increment}>incremento</button>
+        <button @click=${this.__increment}>increment</button>
         <hr>
         <p> array loop and conditional</p>
         <p>${this.myString}</p>
         <ul>
-            ${this.myArray.map (i => html` <li> ${i}</li>`)}
+            ${this.myArray.map(i => html` <li> ${i}</li>`)}
         </ul>
         ${this.myBool?
         html`<p>Redender some HTML if myBool is true</p>`:

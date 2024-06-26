@@ -1,6 +1,6 @@
-import { LitElement, html } from "lit";
+import { LitElement, html} from "lit";
 
-export class EContactoList extends LitElement{
+export default  class ContactoList extends LitElement{
 
     static get properties(){
         return{
@@ -15,9 +15,15 @@ export class EContactoList extends LitElement{
         super.connectedCallback();
     }
     render(){
+        console.log("hola desde el render contact");
         return html`
+            <style>
+                div{
+                    background-color: #f0f0f0;
+                }
+            </style>
             <div>
-                ${this.contactos.map(contact => html` <my-contact nombre="${contact.nombre}" email="${contact.email}"></my-contact>`)}
+                ${this.contactos.map(contact => html`<my-contact nombre="${contact.nombre}" email="${contact.email}"></my-contact>`)}
 
             </div>
         `;
