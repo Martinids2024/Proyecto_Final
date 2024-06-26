@@ -12,3 +12,6 @@
 
   import TempBind from "./Componente/temple-bind.js";
   customElements.define('temple-bind', TempBind);
+
+  import InputSample from "./Componente/input-sample.js";
+  customElements.define('input-sample', InputSample);
